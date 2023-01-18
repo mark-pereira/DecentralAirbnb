@@ -39,5 +39,5 @@ function RentalsMap({ locations, google, setHighLight }) {
 }
 
 export default GoogleApiWrapper({
-    apiKey: "api_key",
+    apiKey: "AIzaSyCdu_cJXF3_F4kT1UeTUE5yN3eFK72Wx40",
 })(RentalsMap);

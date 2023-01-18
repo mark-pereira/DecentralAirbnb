@@ -2,6 +2,8 @@ require("dotenv").config();
 require("@nomiclabs/hardhat-etherscan");
 require("@nomicfoundation/hardhat-chai-matchers");
 require("hardhat-gas-reporter");
+require('dotenv').config()
+console.log(process.env) // remove this after you've confirmed it working
 
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
